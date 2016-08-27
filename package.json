@@ -1,0 +1,34 @@
+{
+  "name": "postcss-rgbtohsv",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to convert RGB colors to their HSV equivalent colors",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "RGB",
+    "HSV",
+    "convert"
+  ],
+  "author": "alexlibby <alex.libby@outlook.com>",
+  "license": "MIT",
+  "repository": "alexlibby/postcss-rgbtohsv",
+  "bugs": {
+    "url": "https://github.com/alexlibby/postcss-rgbtohsv/issues"
+  },
+  "homepage": "https://github.com/alexlibby/postcss-rgbtohsv",
+  "dependencies": {
+    "postcss": "^5.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^3.1.1",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
